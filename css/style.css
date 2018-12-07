@@ -4,17 +4,44 @@ header, main, footer {
   margin-right: auto;
 }
 
+header {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+header section {
+  display: inline-block;
+}
+
 main {
   border-top: 10px solid lightgray;
   border-bottom: 10px solid lightgray;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+button {
+  position: absolute;
+  right: 10%;
 }
 
 #hero {
   width: 100%;
 }
 
-header section {
-  display: inline-block;
+header section h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 32px;
+}
+
+header section p {
+  font-size: 12px;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 #icons {
