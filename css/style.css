@@ -96,6 +96,42 @@ ul {
   font-family: 'M PLUS 1p', sans-serif;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 footer section {
   display: inline-block;
+  margin-bottom: 75px;
+  width: 550px;
+  font-size: 18px;
+  color: rgb(102, 100, 100);
+}
+
+footer section h3 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+footer button {
+  position: absolute;
+  right: 15%;
+  padding: 12px 45px;
+  border: none;
+  background-color: rgb(223, 130, 102);
+  color: white;
+  font-size: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+footer section:last-child {
+  width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#small-logo {
+  margin-bottom: 30px;
 }
